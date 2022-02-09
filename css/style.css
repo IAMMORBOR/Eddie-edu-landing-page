@@ -84,10 +84,13 @@ body {
   .service-section__cards {
     display: flex;
     justify-content: center;
-    margin: 2rem 9.7rem; }
+    align-content: center;
+    margin-top: 2rem; }
     @media (max-width: 37.5em) {
       .service-section__cards {
-        flex-direction: column; } }
+        flex-direction: column;
+        justify-items: center;
+        align-items: center; } }
     .service-section__cards--container {
       width: 25.1rem;
       height: 28.1rem;
@@ -100,11 +103,7 @@ body {
         .service-section__cards--container {
           width: 36.1rem;
           height: 30rem;
-          margin-bottom: 2rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-content: center; } }
+          margin-bottom: 2rem; } }
       .service-section__cards--container-heading {
         font-size: 1.5rem;
         font-weight: 700;
@@ -238,24 +237,26 @@ body {
         left: 20%; } }
 
 .testimony {
-  padding: 4rem 2rem 10rem 2rem; }
+  padding: 8rem; }
   .testimony-text {
     font-size: 2rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: #333333;
     width: 53.9rem;
-    margin: 8.8rem 0 2rem 8.3rem; }
+    margin-bottom: 4rem; }
     @media (max-width: 37.5em) {
       .testimony-text {
-        margin: 0 0 6rem 0; } }
+        width: 45rem; } }
   .testimony__content {
-    display: flex;
-    margin-left: 8.3rem; }
+    display: flex; }
     .testimony__content--img {
       width: 4.5%;
       border-radius: 1rem;
       margin-right: 1rem; }
+      @media (max-width: 37.5em) {
+        .testimony__content--img {
+          width: 4rem; } }
     .testimony__content--name {
       font-size: 1.5rem;
       font-weight: 500;
