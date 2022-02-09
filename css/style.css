@@ -70,7 +70,8 @@ body {
 
 .service-section {
   background-color: #F2F2F2;
-  padding: 1.2rem 1.2rem 10rem 1.2rem; }
+  padding: 1.2rem 1.2rem 10rem 1.2rem;
+  width: 100vw; }
   .service-section__mainHeading {
     margin-left: 8.3rem;
     width: 17.3rem;
@@ -179,7 +180,8 @@ body {
     .teams {
       flex-direction: column;
       padding: 3rem 1.5rem;
-      height: 65rem; } }
+      height: 65rem;
+      width: 100vw; } }
   .teams__main-heading {
     justify-self: center;
     align-self: center;
@@ -247,7 +249,7 @@ body {
     margin-bottom: 4rem; }
     @media (max-width: 37.5em) {
       .testimony-text {
-        width: 45rem; } }
+        width: 42rem; } }
   .testimony__content {
     display: flex; }
     .testimony__content--img {
@@ -273,7 +275,8 @@ body {
 
 .footer {
   background-color: #100E1D;
-  padding: 4rem 0 4rem 0; }
+  padding: 4rem 0 4rem 0;
+  width: 100vw; }
 
 .footer-section {
   display: flex;
