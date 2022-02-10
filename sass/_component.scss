@@ -7,8 +7,12 @@
         font-family:$font-1;
         font-weight: 500;
         display: inline;
-        margin-right: 2rem;
+      
+        &:not(:last-child){
+          margin-right: 2rem;
+        }
       }
+     
     }
     &__link{
         text-decoration: none;
@@ -71,7 +75,7 @@
    margin-left: -6rem;
 
    @media (max-width:56.2em){
-     margin-left: -6.5rem;
+     margin-left: -5rem;
      padding: 1rem 2.19rem;
    }
    @media (max-width:37.5em){
@@ -137,7 +141,7 @@
   margin-left: 105rem;
 
   @media (max-width:56.2em){
-    margin-left: 90rem;
+    margin-left: 65rem;
   }
   @media (max-width:37.5em){
     margin-left: 33.7rem;   

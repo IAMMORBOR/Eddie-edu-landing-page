@@ -70,8 +70,10 @@ body {
 
 .service-section {
   background-color: #F2F2F2;
-  padding: 1.2rem 1.2rem 10rem 1.2rem;
-  width: 100vw; }
+  padding: 1.2rem 1.2rem 10rem 1.2rem; }
+  @media (max-width: 56.2em) {
+    .service-section {
+      width: 100%; } }
   .service-section__mainHeading {
     margin-left: 8.3rem;
     width: 17.3rem;
@@ -171,7 +173,7 @@ body {
 
 .teams {
   background-color: #F2F2F2;
-  padding: 1.2rem 1.2rem 10rem 1.2rem;
+  padding: 1.2rem 1rem 10rem 1rem;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -216,6 +218,9 @@ body {
   .teams__img--picture-1 {
     top: 5%;
     left: 71%; }
+    @media (max-width: 56.2em) {
+      .teams__img--picture-1 {
+        top: 11%; } }
     @media (max-width: 37.5em) {
       .teams__img--picture-1 {
         top: 41%;
@@ -232,7 +237,10 @@ body {
         left: 49%; } }
   .teams__img--picture-3 {
     top: 30%;
-    left: 54%; }
+    left: 55%; }
+    @media (max-width: 56.2em) {
+      .teams__img--picture-3 {
+        left: 53%; } }
     @media (max-width: 37.5em) {
       .teams__img--picture-3 {
         top: 56%;
@@ -275,8 +283,13 @@ body {
 
 .footer {
   background-color: #100E1D;
-  padding: 4rem 0 4rem 0;
-  width: 100vw; }
+  padding: 4rem 0 4rem 0; }
+  @media (max-width: 56.2em) {
+    .footer {
+      width: 100%; } }
+  @media (max-width: 37.5em) {
+    .footer {
+      width: 100%; } }
 
 .footer-section {
   display: flex;
@@ -405,8 +418,9 @@ body {
     font-size: 1.3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    display: inline;
-    margin-right: 2rem; }
+    display: inline; }
+    .navigationBar__ul--list:not(:last-child) {
+      margin-right: 2rem; }
 
 .navigationBar__link {
   text-decoration: none;
@@ -463,7 +477,7 @@ body {
   margin-left: -6rem; }
   @media (max-width: 56.2em) {
     .cta-section__btn {
-      margin-left: -6.5rem;
+      margin-left: -5rem;
       padding: 1rem 2.19rem; } }
   @media (max-width: 37.5em) {
     .cta-section__btn {
@@ -527,7 +541,7 @@ body {
   margin-left: 105rem; }
   @media (max-width: 56.2em) {
     .design-section__link {
-      margin-left: 90rem; } }
+      margin-left: 65rem; } }
   @media (max-width: 37.5em) {
     .design-section__link {
       margin-left: 33.7rem; } }
